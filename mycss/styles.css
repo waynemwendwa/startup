@@ -1,0 +1,126 @@
+.topnav{
+    background-color: black;
+    overflow: hidden;
+}
+.topnav a{
+    text-decoration: none;
+    padding: 14px 14px;
+    display: block;
+    float: left;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-family: "Goudy Stout";
+}
+.topnav a:hover{
+    background-color: yellow;
+    color: black;
+}
+.landtext{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    font-family: Castellar;
+}
+.landbtn{
+    background-color: black;
+    padding: 12px 12px;
+    color: white;
+    border-radius: 8px;
+    width: 40%;
+    border: 1px solid black;
+    font-family: Forte;
+}
+.landbtn:hover{
+    background-color: yellow;
+    color: black;
+}
+.landimg{
+    background-image: url("../images/w.jpg");
+    height: 900px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: navy;
+}
+.separate{
+    margin-top: 5px;
+}
+.paragraph{
+    color: white;
+    margin-bottom: 500px;
+    padding-bottom: 150px;
+}
+
+.inputstyle{
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+}
+.link{
+    text-align: center;
+    font-family: Castellar;
+    color: white;
+    font-size: large;
+}
+.landimage{
+    background-image: url("../images/african lion.jpg");
+    height: 900px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: navy;
+}
+.landimaage{
+    background-image: url("../images/tigers.jpg");
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: navy;
+}
+.inputstyle:hover{
+    background-color: yellow;
+    color: black;
+}
+.formimaage{
+    background-image: url("../images/fox.jpg");
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: navy;
+}
+.formstyle{
+    padding: 20px;
+    margin: 20px;
+}
+.formstyle input{
+    width: 100%;
+    padding: 12px 12px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+.buttonstyle{
+    width: 20%;
+    border: none;
+    background-color: black;
+    border-radius: 8px;
+    padding: 10px 10px;
+    text-align: center;
+    color: white;
+    font-size: larger;
+}
+.buttonstyle:hover{
+    background-color: yellow;
+    color: black;
+}
